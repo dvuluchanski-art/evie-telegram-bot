@@ -5,7 +5,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
 logging.basicConfig(level=logging.INFO)
 
-TOKEN = os.getenv("TOKEN")
+TOKEN = os.getenv("TELEGRAM")
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("Привет! Я — Эйви, твой спутник и помощник.")
