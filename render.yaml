@@ -5,3 +5,5 @@ services:
     buildCommand: ""
     startCommand: "python main.py"
     autoDeploy: true
+    build:
+  pythonVersion: 3.11
